@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Botones con estilo Pokémon -->
+    <style name="Button.PokemonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+    <!-- Textos grandes -->
+    <style name="TextView.TitleStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!-- Estilo del BottomNavigationView -->
+    <style name="BottomNav.PokemonStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="itemIconTint">@color/colorOnPrimary</item>
+        <item name="itemTextColor">@color/colorOnPrimary</item>
+    </style>
+
+</resources>

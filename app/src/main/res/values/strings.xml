@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Pokedex_JCLA</string>
+
+    <!--Datos de Pokemon -->
+
+
+    <!--FRAGMENT SETTINGS _____________________________________________________  -->
+    <string name="ajustes">AJUSTES</string>
+    <string name="setting_language">Idioma</string>
+    <string name="setting_delete_pokemon">Eliminar Pokémon</string>
+    <string name="setting_about">Acerca de</string>
+    <string name="setting_logout">Cerrar sesión</string>
+
+    <!-- Descripción de los image button de SETTINGS -->
+    <string name="description_setting_language">Idioma</string>
+    <string name="description_setting_delete_pokemon">Eliminar Pokémon</string>
+    <string name="description_setting_about">Acerca de</string>
+    <string name="description_setting_logout">Cerrar sesión</string>
+    <!-- Recursos AlertDialog -->
+            <!-- Otros recursos en español -->
+</resources>

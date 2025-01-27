@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/pokemon_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Pokemon"
+        style="@style/TextView.TitleStyle"
+        android:layout_margin="10dp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/pokemon_status_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:contentDescription="Capturado o no"
+        android:layout_margin="10dp"
+        android:src="@drawable/sin_capturar" />
+</LinearLayout>
